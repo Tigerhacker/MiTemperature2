@@ -1,3 +1,13 @@
+# Quick 'n dirty modifications in btle_advertisement_listener.py
+- Support [pvvx's](https://github.com/pvvx/ATC_MiThermometer) custom data format for LYWSD03MMC
+- Support LYWSDCGQ (Xiaomi's original unencrypted data format)
+- Native InfluxDB v1 export
+- Most unneccecary features of the original broken/removed
+
+
+Original readme:
+
+
 # Read data from Xiaomi Mijia LYWSD03MMC Bluetooth 4.2 Temperature Humidity sensor
 
 With this script you can read out the value of your LYWSD03MMC sensor, e.g. with Raspberry PI. Note Raspbery Pi 4 has a very limited bluetooth range. PI Zero W gives much longer range.
